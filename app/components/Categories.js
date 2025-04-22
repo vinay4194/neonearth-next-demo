@@ -130,8 +130,8 @@ export default function Categories() {
 			name: "Theme",
 			img: "/categories/theme.webp",
 			hasDropdown: true,
-			dropdownItems: [],
-			image: "/placeholder.jpg",
+			dropdownItems: ["Neon Designs", "Vintage", "Abstract", "Nature"],
+			image: "/categories/pattern-sub.webp",
 			imageText: "Set the mood",
 		},
 	];

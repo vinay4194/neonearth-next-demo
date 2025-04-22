@@ -6,17 +6,17 @@ export const clipShapes = {
 
 		ctx.beginPath();
 
-		// Top side (bulging upward)
+		// Top side
 		ctx.moveTo(curve, 0);
 		ctx.quadraticCurveTo(w / 2, -curve, w - curve, 0);
 
-		// Right side (bulging right)
+		// Right side
 		ctx.quadraticCurveTo(w + curve, h / 2, w - curve, h);
 
-		// Bottom side (bulging downward)
+		// Bottom side
 		ctx.quadraticCurveTo(w / 2, h + curve, curve, h);
 
-		// Left side (bulging left)
+		// Left side
 		ctx.quadraticCurveTo(-curve, h / 2, curve, 0);
 
 		ctx.closePath();
